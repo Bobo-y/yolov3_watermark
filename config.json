@@ -1,0 +1,44 @@
+{
+    "model" : {
+        "min_input_size":       288,
+        "max_input_size":       448,
+        "anchors":              [23,22, 41,89, 46,35, 81,44, 97,31, 101,65, 126,53, 168,37, 242,52],
+        "labels":               ["watermark"]
+    },
+
+    "train": {
+        "train_image_folder":   "/home/keras-yolo3/watermark/images/",
+        "train_annot_folder":   "/home/keras-yolo3/watermark/annotations/",
+        "cache_name":           "watermark.pkl",
+        "pretrained_weights":   "watermark0513.h5",
+        "train_times":          1,
+        "batch_size":           8,
+        "learning_rate":        1e-4,
+        "nb_epochs":            30,
+        "warmup_epochs":        3,
+        "ignore_thresh":        0.6,
+        "gpus":                  "1",
+        "grid_scales":          [1,1,1],
+        "obj_scale":            7,
+        "noobj_scale":          1,
+        "xywh_scale":           1,
+        "class_scale":          1,
+
+        "tensorboard_dir":      "logs",
+        "saved_weights_name":   "watermark0515.h5",
+        "debug":                true
+    } ,
+
+    "valid": {
+        "valid_image_folder":   "",
+        "valid_annot_folder":   "",
+        "cache_name":           ""
+    },
+    "pred":{
+        "obj_thresh":    0.5,
+        "nms_thresh":    0.45,
+        "net_h":         416,
+        "net_w":         416,
+        "output_mode":    "no_wm" 
+}
+}
