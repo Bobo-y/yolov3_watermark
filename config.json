@@ -10,7 +10,7 @@
         "train_image_folder":   "/home/keras-yolo3/watermark/images/",
         "train_annot_folder":   "/home/keras-yolo3/watermark/annotations/",
         "cache_name":           "watermark.pkl",
-        "pretrained_weights":   "watermark0513.h5",
+        "pretrained_weights":   "backend.h5",
         "train_times":          1,
         "batch_size":           8,
         "learning_rate":        1e-4,
@@ -25,7 +25,7 @@
         "class_scale":          1,
 
         "tensorboard_dir":      "logs",
-        "saved_weights_name":   "watermark0515.h5",
+        "saved_weights_name":   "weights.h5",
         "debug":                true
     } ,
 
