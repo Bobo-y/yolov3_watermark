@@ -1,9 +1,6 @@
 # keras-YOLOv3 水印检测模型。在开源的YOLOv3模型基础上，修改部分参数。
-## 结果
-![image](https://github.com/yl305237731/yolov3_watermark/test/1.png)
-
-
-
+## 测试结果（test）
+![](https://github.com/yl305237731/yolov3_watermark/blob/master/test/1.png)
 
 ## 模型训练
 
@@ -28,14 +25,14 @@ The configuration file is a json file, which looks like this:
         "min_input_size":       288,
         "max_input_size":       448,
         "anchors":              [23,22, 41,89, 46,35, 81,44, 97,31, 101,65, 126,53, 168,37, 242,52],
-        "labels":               ["watermark"]   # 指定需要检测的目标类别，只检测水印
+        "labels":               ["watermark"]   # 指定需要检测的目标类别
     },
 
     "train": {
         "train_image_folder":   "/home/keras-yolo3/watermark/images/",     # 训练图片路径
         "train_annot_folder":   "/home/keras-yolo3/watermark/annotations/",  # 训练图片对应标注
         "cache_name":           "watermark.pkl",                                       # 生成anchors时会生成
-        "pretrained_weights":   "watermark0513.h5",                                    # 预训练权重
+        "pretrained_weights":   "backend.h5",                                    # 预训练权重
         "train_times":          1,                                                     # 每个epoch训练集训练次数
         "batch_size":           8,
         "learning_rate":        1e-4,
@@ -50,7 +47,7 @@ The configuration file is a json file, which looks like this:
         "class_scale":          1,
 
         "tensorboard_dir":      "logs",
-        "saved_weights_name":   "watermark0515.h5",
+        "saved_weights_name":   "weights.h5",
         "debug":                true
     } ,
 
