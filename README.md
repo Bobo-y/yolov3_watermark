@@ -1,4 +1,8 @@
-# keras-YOLOv3 水印检测模型
+# keras-YOLOv3 水印检测模型。在开源的YOLOv3模型基础上，修改部分参数。
+## 结果
+![image](https://github.com/yl305237731/yolov3_watermark/test/1.png)
+
+
 
 
 ## 模型训练
