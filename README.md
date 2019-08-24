@@ -92,4 +92,4 @@ https://1drv.ms/u/s!ApLdDEW3ut5fgQXa7GzSlG-mdza6
 
 `python evaluate.py -c config.json`
 
-[网盘链接](https://pan.baidu.com/s/1vjLA4HD9XH_CCMweURyI8Q)  密码:tou6
+
