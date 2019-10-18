@@ -87,7 +87,7 @@ https://1drv.ms/u/s!ApLdDEW3ut5fgQXa7GzSlG-mdza6
 ## 检测  
 `python predict.py -c config.json -i /image_path/`
 默认将检测出带水印结果放到output/下，无水印结果方法non_output/下。
-
+[百度网盘](https://pan.baidu.com/s/1LAtL_qnaQwjy2755AEkHrQ&shfl=shareset) 提取码: ij4h 
 ## Evaluation
 
 `python evaluate.py -c config.json`
