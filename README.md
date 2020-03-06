@@ -69,7 +69,7 @@ labels中包含的目标名将会被作为检测目标
 
 Download pretrained weights for backend at:
 
-https://1drv.ms/u/s!ApLdDEW3ut5fgQXa7GzSlG-mdza6
+链接: https://pan.baidu.com/s/1OXoMWlL3MS7i1tc1AYssiw 密码: nutd 
 
 
 ### 3. 生成acchors
