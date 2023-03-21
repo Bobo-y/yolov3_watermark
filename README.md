@@ -1,3 +1,5 @@
+# This model is too old, I suggest not to use it anymore!!!!
+
 # keras-YOLOv3 水印检测模型。在开源的YOLOv3模型基础上，修改部分参数。
 ## 测试结果（test）
 ![](https://github.com/yl305237731/yolov3_watermark/blob/master/test/1.png)
